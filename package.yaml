@@ -1,0 +1,26 @@
+name:                modular
+version:             0.1.0.0
+github:              "pgujjula/modular"
+license:             BSD3
+author:              "Preetham Gujjula"
+maintainer:          "preetham.gujjula@gmail.com"
+copyright:           "2018 Preetham Gujjula"
+
+extra-source-files:
+- README.md
+- ChangeLog.md
+
+synopsis: Modular arithmetic, with modulus specifiable at runtime or compile time
+category: Math
+description: Please see the README on GitHub at <https://github.com/pgujjula/modular#readme>
+
+dependencies:
+  - base >= 4.7 && < 5
+  - ghc-typelits-knownnat >= 0.5 && < 1
+
+ghc-options: -Wall -Werror
+
+library:
+  source-dirs: src
+  exposed-modules:
+    - Numeric.Modular

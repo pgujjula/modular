@@ -1,0 +1,6 @@
+.stack-work/
+modular.cabal
+*~
+*.swp
+*.hi
+*.o
