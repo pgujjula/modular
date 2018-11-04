@@ -10,7 +10,7 @@ extra-source-files:
 - README.md
 - ChangeLog.md
 
-synopsis: Modular arithmetic, with modulus specifiable at runtime or compile time
+synopsis: Type-safe modular arithmetic, with modulus specifiable at runtime or compile time.
 category: Math
 description: Please see the README on GitHub at <https://github.com/pgujjula/modular#readme>
 
