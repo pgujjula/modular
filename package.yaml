@@ -12,7 +12,7 @@ extra-source-files:
 
 synopsis: Type-safe modular arithmetic, with modulus specifiable at runtime or compile time.
 category: Math
-description: Please see the README on GitHub at <https://github.com/pgujjula/modular#readme>
+description: Please the module documentation for Numeric.Modular.
 
 dependencies:
   - base >= 4.7 && < 5
