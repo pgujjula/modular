@@ -41,7 +41,12 @@
     33479467020524411041
 -}
 
-{-# LANGUAGE DataKinds, TypeFamilies, TypeOperators, GADTs, Rank2Types, ScopedTypeVariables #-}
+{-# LANGUAGE DataKinds, TypeFamilies, TypeOperators, GADTs, Rank2Types, ScopedTypeVariables, CPP #-}
+#ifdef MIN_VERSION_GLASGOW_HASKELL
+#if MIN_VERSION_GLASGOW_HASKELL(8,6,1,0)
+{-# LANGUAGE NoStarIsType #-}
+#endif
+#endif
 {-# OPTIONS_GHC -fplugin GHC.TypeLits.KnownNat.Solver #-}
 
 module Numeric.Modular
