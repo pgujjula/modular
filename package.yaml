@@ -1,5 +1,5 @@
 name:                modular
-version:             0.1.0.6
+version:             0.1.0.7
 github:              "pgujjula/modular"
 license:             BSD3
 author:              "Preetham Gujjula"
@@ -12,7 +12,9 @@ extra-source-files:
 
 synopsis: Type-safe modular arithmetic
 category: Math
-description: Please the module documentation for Numeric.Modular.
+description: ! "Please see the GitHub page at
+    <https://github.com/pgujjula/modular> for installation instructions, and
+    the module documentation for Numeric.Modular for usage instructions."
 
 dependencies:
   - base >= 4.7 && < 5
