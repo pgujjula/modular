@@ -1,5 +1,5 @@
 name:                modular
-version:             0.1.0.0
+version:             0.1.0.6
 github:              "pgujjula/modular"
 license:             BSD3
 author:              "Preetham Gujjula"
@@ -10,7 +10,7 @@ extra-source-files:
 - README.md
 - ChangeLog.md
 
-synopsis: Type-safe modular arithmetic, with modulus specifiable at runtime or compile time.
+synopsis: Type-safe modular arithmetic
 category: Math
 description: Please the module documentation for Numeric.Modular.
 
@@ -18,7 +18,7 @@ dependencies:
   - base >= 4.7 && < 5
   - ghc-typelits-knownnat >= 0.5 && < 1
 
-ghc-options: -Wall -Werror
+ghc-options: -Wall
 
 library:
   source-dirs: src
