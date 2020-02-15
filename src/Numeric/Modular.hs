@@ -61,6 +61,7 @@ module Numeric.Modular
     , mkMod
     , withMod
     , getM
+    , getV
     ) where
 
 import Data.Proxy (Proxy(..))
