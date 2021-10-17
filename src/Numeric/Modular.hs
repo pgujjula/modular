@@ -120,6 +120,9 @@ reifyInteger n f
 instance Eq (Mod m) where
     (==) (Mod a) (Mod b) = a == b
 
+instance (KnownNat m) => Ord (Mod m) where
+  compare (Mod a) (Mod b) = compare a b
+
 instance (KnownNat m) => Show (Mod m) where
     show (Mod a) = show a
 
