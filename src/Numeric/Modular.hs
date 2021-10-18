@@ -62,6 +62,7 @@ module Numeric.Modular
     , withMod
     , getM
     , getV
+    , reifyInteger
     ) where
 
 import Data.Proxy (Proxy(..))
